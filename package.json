@@ -1,0 +1,22 @@
+{
+  "name": "email-validator",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "python -m src.main",
+    "test": "python -m pytest tests/",
+    "api": "uvicorn src.api.main:app --reload",
+    "lint": "pylint src/ tests/",
+    "format": "black src/ tests/",
+    "build": "python -m build",
+    "docs": "mkdocs serve",
+    "clean": "rimraf dist/ build/ __pycache__/ .pytest_cache/"
+  },
+  "dependencies": {
+    "python-shell": "^5.0.0"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.5"
+  }
+}

@@ -1,0 +1,31 @@
+# Core dependencies
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.5.2
+python-multipart==0.0.6
+email-validator==2.1.0.post1
+aiofiles==23.2.1
+
+# Database and caching
+aiohttp==3.9.1
+aiosmtplib==2.0.2
+
+# Domain validation
+dnspython==2.4.2
+tld==0.13
+whois==0.9.27
+
+# Text processing
+python-Levenshtein==0.23.0
+disposable-email-domains==0.0.82
+
+# Testing
+pytest==7.4.3
+
+# GUI
+PyQt6==6.5.2
+qt-material==2.14
+
+# File handling
+openpyxl==3.1.2
+xlrd==2.0.1
